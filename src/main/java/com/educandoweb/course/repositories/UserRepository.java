@@ -4,7 +4,6 @@ import org.springframework.data.jpa.repository.support.JpaRepositoryImplementati
 
 import com.educandoweb.course.entities.User;
 
-public interface UserRepository extends JpaRepositoryImplementation<User, Long>{
-	
-	
+public interface UserRepository extends JpaRepositoryImplementation<User, Long> {
+
 }
