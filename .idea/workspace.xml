@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f2007ea-fe83-4c93-99ce-802e7010452c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/UserResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/UserResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/exceptions/ResourceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/exceptions/StandardError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/educandoweb/course/services/exceptions/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/educandoweb/course/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/educandoweb/course/services/UserService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,15 +23,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/UserResource.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/educandoweb/course/services/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+            <state relative-caret-position="374">
+              <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
+              <folding>
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#637#638#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#700#701#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,8 +53,12 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/educandoweb/course/entities/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/educandoweb/course/services/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/UserResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/educandoweb/course/services/com/educandoweb/course/services/exceptions/ResourceNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/exceptions/StandardError.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/educandoweb/course/services/exceptions/ResourceNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/exceptions/ResourceExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/educandoweb/course/services/UserService.java" />
       </list>
     </option>
   </component>
@@ -79,22 +99,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="course" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="course" type="b2602c69:ProjectViewProjectNode" />
@@ -167,15 +171,15 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2595949" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32893288" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32857144" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -285,23 +289,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/UserResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="48" column="45" lean-forward="true" selection-start-line="48" selection-start-column="45" selection-end-line="48" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/exceptions/StandardError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="52" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#607#608#0" expanded="true" />
+            <element signature="e#639#640#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#795#796#0" expanded="true" />
+            <element signature="e#840#841#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#908#909#0" expanded="true" />
+            <element signature="e#936#937#0" expanded="true" />
+            <element signature="e#978#979#0" expanded="true" />
+            <element signature="e#1012#1013#0" expanded="true" />
+            <element signature="e#1060#1061#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1136#1137#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1205#1206#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1272#1273#0" expanded="true" />
+            <element signature="e#1304#1305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/educandoweb/course/services/exceptions/ResourceNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="38" />
+          <folding>
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/exceptions/ResourceExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/educandoweb/course/services/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="430">
-          <caret line="44" column="40" selection-start-line="44" selection-start-column="40" selection-end-line="44" selection-end-column="40" />
+        <state relative-caret-position="374">
+          <caret line="25" column="66" selection-start-line="25" selection-start-column="66" selection-end-line="25" selection-end-column="66" />
           <folding>
             <element signature="e#603#604#0" expanded="true" />
             <element signature="e#637#638#0" expanded="true" />
             <element signature="e#668#669#0" expanded="true" />
             <element signature="e#700#701#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/educandoweb/course/resources/UserResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
         </state>
       </provider>
     </entry>
